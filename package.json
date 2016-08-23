@@ -1,0 +1,24 @@
+{
+  "name": "slideshow-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "knex": "^0.11.10",
+    "mysql": "^2.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turtles-with-lasers/slideshow-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turtles-with-lasers/slideshow-app/issues"
+  },
+  "homepage": "https://github.com/turtles-with-lasers/slideshow-app#readme"
+}

@@ -1,0 +1,3 @@
+## Backend:
+###### Database:
+We use MySQL as a database along with Knex to use migrations and the query builder. How does this work? Simple, first install Knex globally with NPM ` npm install knex -g`. Initiality you'll need to create a database yourself, name it `slideshow`. After you have created your database, you're gonna want to import the database structure by navigating to the `backend` folder and running `knex migrate:latest`. This will update your database structure. You will have to run `knex migrate:latest` every time a migration is added in the `backend/migrations` folder. The idea of this is to have a simple version control for the database itself. Also, don't forget to `npm install`.
