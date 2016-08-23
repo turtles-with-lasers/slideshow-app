@@ -1,0 +1,22 @@
+{
+  "name": "slideshow-app",
+  "homepage": "https://github.com/turtles-with-lasers/slideshow-app",
+  "authors": [
+    "mkamranhamid <mkamranhamid@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7"
+  }
+}

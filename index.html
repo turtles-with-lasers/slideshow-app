@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slideshow App</title>
+    <link href="./bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./styles/common.css" rel="stylesheet">
+    <script src="./bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./bower_components/angular/angular.min.js"></script>
+    <script src="./bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./controllers/main.js"></script>
+    <script src="./controllers/loginController.js"></script>
+    <script src="./controllers/homeController.js"></script>
+</head>
+<body ng-app="app">
+<div ng-controller="main">
+<div ui-view></div>
+
+</div>
+</body>
+</html>
