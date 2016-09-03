@@ -8,7 +8,12 @@ var app = angular.module('app',['ui.router'])
             .state('/', {
                 url: "/",
                 templateUrl: './views/login.html',
-                controller: 'loginCtrl'
+                controller: 'authCtrl'
+            })
+            .state('signup', {
+                url: "/signup",
+                templateUrl: './views/signup.html',
+                controller: 'authCtrl'
             })
             .state('home', {
                 url: "/home",
